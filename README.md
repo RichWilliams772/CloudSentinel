@@ -15,7 +15,15 @@ The platform simulates large-scale IoT environments, processes high-frequency te
 - 📊 Live dashboard with rolling window analytics
 - 🔌 WebSocket-based streaming to frontend
 - 📈 Scalable, cloud-native system design
+  
+---
+## System Components
 
+- **Producer** — Simulates IoT telemetry and publishes to Kafka
+- **Consumer** — Applies ML model for anomaly detection
+- **API Layer** — Streams processed data via WebSocket
+- **Frontend Dashboard** — Visualizes real-time telemetry and anomalies
+- **Infrastructure** — Dockerized Kafka and streaming services
 ---
 
 ## 🏗️ System Architecture
