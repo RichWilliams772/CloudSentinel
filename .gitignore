@@ -13,6 +13,13 @@ data/
 # C extensions
 *.so
 
+node_modules/
+.venv-1/
+__pycache__/
+*.pyc
+.env
+data/
+
 # Distribution / packaging
 .Python
 build/
