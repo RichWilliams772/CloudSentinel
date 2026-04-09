@@ -29,7 +29,7 @@ while True:
     for device in devices:
         data = generate_data(device)
 
-        producer.send("telemetry", data)
+        producer.send("iot-telemetry", data)
 
         print("Sent:", data)
 
